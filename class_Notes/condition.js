@@ -35,3 +35,37 @@ if (age >= 1 && age <= 10) {
 } else {
     console.log("check the age");
 }
+
+let day="sunday"  
+
+// console.log(day.toUpperCase());
+// let upper=day.toUpperCase()
+// console.log("upper-",upper);
+
+
+
+switch(day){
+    case "monday":
+        console.log("weekday 1 => monday");
+        break;
+    case "tuesday":
+        console.log("weekday 2 => tuesday");
+        break;
+    case "wednesday":
+        console.log("weekday 3 => wednesday");
+        break;
+    case "thursday":
+        console.log("weekday 4 => thursday");
+        break;
+    case "friday":
+        console.log("weekday 5 => friday");
+        break;
+    case "saturday":
+        console.log("weekoff 1 => saturday");
+        break;
+    case "sunday":
+        console.log("weekoff 2 => sunday");
+        break;
+    default:
+        console.log("check the day");
+}
