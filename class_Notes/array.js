@@ -38,4 +38,20 @@ console.log(z.lastIndexOf(1));
 
 console.log(arr.concat(z));
 
+//map | reduce | filter
+
+let num= [1,2,3,4,5,6,7,8,9]
+
+let mul=num.map((el)=>el*5);
+console.log(mul);
+
+let even = num.filter((el)=>el%2===0);
+console.log(even);
+
+let sums=num.reduce((acc,el)=>acc+el);
+console.log(sums);
+
+let sum =num.reduce((acc,el)=>acc+el,200)
+console.log(sum);
+
 
