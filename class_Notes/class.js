@@ -37,7 +37,7 @@ class movie {
     }
 }
 
-let movieOne= new movie ("karuppu","surya","thirisha"); // constructor call
+let movieOne= new movie ("karuppu","surya","thirisha"); // constructor call // object creation
 movieOne.title();
 movieOne.artist();
 
