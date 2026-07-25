@@ -1,0 +1,15 @@
+let num = 17;
+let prime = true;
+
+for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+        prime = false;
+        break;
+    }
+}
+
+if (prime && num > 1) {
+    console.log("Prime");
+} else {
+    console.log("Not Prime");
+}
