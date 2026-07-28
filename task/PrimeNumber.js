@@ -40,3 +40,23 @@ for (let i = 3; i <= n; i++) {
     first = second;
     second = next;
 }
+
+function myReduce(array, callback, initialValue) {
+
+    let accumulator = initialValue;
+
+    for (let i = 0; i < array.length; i++) {
+        accumulator = callback(accumulator, array[i], i, array);
+    }
+
+    return accumulator;
+}
+
+// Example
+let numbers = [10, 20, 30, 40];
+
+let result = myReduce(numbers, function (acc, current) {
+    return acc + current;
+}, 0);
+
+console.log(result);
