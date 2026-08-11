@@ -298,3 +298,44 @@ let arr = [1, 2, 3, 4, 5, 6];
 let odd = arr.filter(num => num % 2 !== 0);
 
 console.log(odd);
+
+let str = "hello";
+let result = {};
+
+for (let char of str) {
+    if (result[char]) {
+        result[char]++;
+    } else {
+        result[char] = 1;
+    }
+}
+
+console.log(result);
+
+let arr = [10, 20, 30, 40];
+
+let sum = 0;
+
+for (let num of arr) {
+    sum = sum + num;
+}
+
+console.log(sum);
+
+let arr = [1, 2, 3, 4, 5, 6];
+
+let odd = arr.filter(num => num % 2 !== 0);
+
+console.log(odd);
+
+let arr = [1, 2, 3, 4, 5, 6];
+
+let even = arr.filter(num => num % 2 === 0);
+
+console.log(even);
+
+let arr = [10, 20, 10, 30, 20];
+
+let unique = [...new Set(arr)];
+
+console.log(unique);
