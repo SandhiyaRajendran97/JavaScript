@@ -339,3 +339,34 @@ let arr = [10, 20, 10, 30, 20];
 let unique = [...new Set(arr)];
 
 console.log(unique);
+
+
+let str = "Sandhiya";
+let reverse = "";
+
+for (let i = str.length - 1; i >= 0; i--) {
+    reverse = reverse + str.charAt(i);
+}
+
+console.log(reverse);
+
+let str = "madam";
+let reverse = str.split("").reverse().join("");
+
+if (str === reverse) {
+    console.log("Palindrome");
+} else {
+    console.log("Not Palindrome");
+}
+
+let arr = [10, 25, 5, 40, 15];
+
+let largest = arr[0];
+
+for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > largest) {
+        largest = arr[i];
+    }
+}
+
+console.log(largest);
