@@ -385,3 +385,26 @@ let counter = outer();
 console.log(counter());
 console.log(counter());
 console.log(counter());
+
+
+let str = "madam";
+let reverse = "";
+
+for (let i = str.length - 1; i >= 0; i--) {
+    reverse += str[i];
+}
+
+if (str === reverse) {
+    console.log("Palindrome");
+} else {
+    console.log("Not Palindrome");
+}
+
+
+let arr = [10, 20, 10, 30, 20, 40];
+
+let duplicates = arr.filter((value, index) => {
+    return arr.indexOf(value) !== index;
+});
+
+console.log([...new Set(duplicates)]);
