@@ -408,3 +408,33 @@ let duplicates = arr.filter((value, index) => {
 });
 
 console.log([...new Set(duplicates)]);
+
+let a = {
+    name: "John",
+    address: {
+        city: "Chennai"
+    }
+};
+
+let b = { ...a };
+
+b.address.city = "Bangalore";
+
+console.log(a.address.city);
+
+
+let arr = [10, 50, 20, 80, 30];
+
+let largest = -Infinity;
+let second = -Infinity;
+
+for (let num of arr) {
+    if (num > largest) {
+        second = largest;
+        largest = num;
+    } else if (num > second && num !== largest) {
+        second = num;
+    }
+}
+
+console.log(second);
