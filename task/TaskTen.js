@@ -456,3 +456,35 @@ for (let num of arr) {
 }
 
 console.log(secondLargest);
+
+let str = "javascript";
+
+let frequency = {};
+
+for (let char of str) {
+    frequency[char] = (frequency[char] || 0) + 1;
+}
+
+console.log(frequency);
+
+let str = "programming";
+
+let result = "";
+
+for (let char of str) {
+    if (!result.includes(char)) {
+        result += char;
+    }
+}
+
+console.log(result);
+
+const arr = [1, 2, 3, 5, 6];
+
+let n = arr.length + 1;
+
+let expected = n * (n + 1) / 2;
+
+let actual = arr.reduce((sum, num) => sum + num, 0);
+
+console.log(expected - actual);
