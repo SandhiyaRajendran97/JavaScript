@@ -488,3 +488,25 @@ let expected = n * (n + 1) / 2;
 let actual = arr.reduce((sum, num) => sum + num, 0);
 
 console.log(expected - actual);
+
+let n = 7;
+
+let a = 0;
+let b = 1;
+
+for (let i = 0; i < n; i++) {
+    console.log(a);
+
+    let next = a + b;
+    a = b;
+    b = next;
+}
+
+let num = 5;
+let factorial = 1;
+
+for (let i = 1; i <= num; i++) {
+    factorial *= i;
+}
+
+console.log(factorial);
