@@ -510,3 +510,12 @@ for (let i = 1; i <= num; i++) {
 }
 
 console.log(factorial);
+
+let str = "javascript";
+let count = {};
+
+for (let char of str) {
+    count[char] = (count[char] || 0) + 1;
+}
+
+console.log(count);
