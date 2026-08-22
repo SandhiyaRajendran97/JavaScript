@@ -6,7 +6,7 @@ let name = "Sandhiya";
 console.log("Original String :", name);
 
 // Reverse String
-let reverse = "";
+let reverseded = "";
 
 for (let i = name.length - 1; i >= 0; i--) {
     reverse += name[i];
@@ -55,7 +55,7 @@ let numbers = [20, 15, 30, 50, 10, 50, 40, 30];
 console.log("\nOriginal Array :", numbers);
 
 // Largest Number
-let largest = numbers[0];
+let largeset = numbers[0];
 
 for (let num of numbers) {
     if (num > largest) {
@@ -77,7 +77,7 @@ for (let num of numbers) {
 console.log("Smallest :", smallest);
 
 // Sum
-let sum = 0;
+let sums = 0;
 
 for (let num of numbers) {
     sum += num;
@@ -117,7 +117,7 @@ for (let i = 1; i <= number; i++) {
 console.log("\nFactorial :", factorial);
 
 // Prime Check
-let prime = true;
+let primes = true;
 
 if (number <= 1) {
     prime = false;
@@ -240,7 +240,7 @@ console.log("Descending :", values);
 console.log("\nProgram Executed Successfully.");
 
 
-let arr = [10, 25, 5, 40, 15];
+let arrd = [10, 25, 5, 40, 15];
 
 let largest = arr[0];
 
@@ -252,7 +252,7 @@ for (let i = 1; i < arr.length; i++) {
 
 console.log(largest);
 
-let arr = [10, 20, 10, 30, 20, 40];
+let arrr = [10, 20, 10, 30, 20, 40];
 
 let duplicates = [];
 
@@ -293,13 +293,13 @@ if (prime) {
 
 
 
-let arr = [1, 2, 3, 4, 5, 6];
+let arrac = [1, 2, 3, 4, 5, 6];
 
-let odd = arr.filter(num => num % 2 !== 0);
+let odds = arr.filter(num => num % 2 !== 0);
 
 console.log(odd);
 
-let str = "hello";
+let stry = "hello";
 let result = {};
 
 for (let char of str) {
@@ -312,7 +312,7 @@ for (let char of str) {
 
 console.log(result);
 
-let arr = [10, 20, 30, 40];
+let arre = [10, 20, 30, 40];
 
 let sum = 0;
 
@@ -322,13 +322,13 @@ for (let num of arr) {
 
 console.log(sum);
 
-let arr = [1, 2, 3, 4, 5, 6];
+let arrw = [1, 2, 3, 4, 5, 6];
 
 let odd = arr.filter(num => num % 2 !== 0);
 
 console.log(odd);
 
-let arr = [1, 2, 3, 4, 5, 6];
+let arrtr = [1, 2, 3, 4, 5, 6];
 
 let even = arr.filter(num => num % 2 === 0);
 
@@ -341,8 +341,8 @@ let unique = [...new Set(arr)];
 console.log(unique);
 
 
-let str = "Sandhiya";
-let reverse = "";
+let stryy = "Sandhiya";
+let reversedd = "";
 
 for (let i = str.length - 1; i >= 0; i--) {
     reverse = reverse + str.charAt(i);
@@ -359,9 +359,9 @@ if (str === reverse) {
     console.log("Not Palindrome");
 }
 
-let arr = [10, 25, 5, 40, 15];
+let arraq = [10, 25, 5, 40, 15];
 
-let largest = arr[0];
+let largestd = arr[0];
 
 for (let i = 1; i < arr.length; i++) {
     if (arr[i] > largest) {
@@ -387,8 +387,8 @@ console.log(counter());
 console.log(counter());
 
 
-let str = "madam";
-let reverse = "";
+let strx = "madam";
+let reversed = "";
 
 for (let i = str.length - 1; i >= 0; i--) {
     reverse += str[i];
@@ -401,32 +401,32 @@ if (str === reverse) {
 }
 
 
-let arr = [10, 20, 10, 30, 20, 40];
+let arrt = [10, 20, 10, 30, 20, 40];
 
-let duplicates = arr.filter((value, index) => {
+let duplicatesed = arr.filter((value, index) => {
     return arr.indexOf(value) !== index;
 });
 
 console.log([...new Set(duplicates)]);
 
-let a = {
+let ac = {
     name: "John",
     address: {
         city: "Chennai"
     }
 };
 
-let b = { ...a };
+let bd = { ...a };
 
 b.address.city = "Bangalore";
 
 console.log(a.address.city);
 
 
-let arr = [10, 50, 20, 80, 30];
+let arra = [10, 50, 20, 80, 30];
 
-let largest = -Infinity;
-let second = -Infinity;
+let largested = -Infinity;
+let seconded = -Infinity;
 
 for (let num of arr) {
     if (num > largest) {
@@ -441,9 +441,9 @@ console.log(second);
 
 
 
-let arr = [10, 25, 5, 40, 30];
+let arrc = [10, 25, 5, 40, 30];
 
-let largest = -Infinity;
+let largestt = -Infinity;
 let secondLargest = -Infinity;
 
 for (let num of arr) {
@@ -457,9 +457,9 @@ for (let num of arr) {
 
 console.log(secondLargest);
 
-let str = "javascript";
+let strf = "javascript";
 
-let frequency = {};
+let frequencies = {};
 
 for (let char of str) {
     frequency[char] = (frequency[char] || 0) + 1;
@@ -467,9 +467,9 @@ for (let char of str) {
 
 console.log(frequency);
 
-let str = "programming";
+let strsd = "programming";
 
-let result = "";
+let results = "";
 
 for (let char of str) {
     if (!result.includes(char)) {
@@ -479,7 +479,7 @@ for (let char of str) {
 
 console.log(result);
 
-const arr = [1, 2, 3, 5, 6];
+const arrs = [1, 2, 3, 5, 6];
 
 let n = arr.length + 1;
 
@@ -489,9 +489,9 @@ let actual = arr.reduce((sum, num) => sum + num, 0);
 
 console.log(expected - actual);
 
-let n = 7;
+let nA= 7;
 
-let a = 0;
+let ab = 0;
 let b = 1;
 
 for (let i = 0; i < n; i++) {
@@ -502,8 +502,8 @@ for (let i = 0; i < n; i++) {
     b = next;
 }
 
-let num = 5;
-let factorial = 1;
+let Numbers = 5;
+let factorials = 1;
 
 for (let i = 1; i <= num; i++) {
     factorial *= i;
@@ -511,7 +511,7 @@ for (let i = 1; i <= num; i++) {
 
 console.log(factorial);
 
-let str = "javascript";
+let strs = "javascript";
 let count = {};
 
 for (let char of str) {
@@ -519,3 +519,23 @@ for (let char of str) {
 }
 
 console.log(count);
+
+const promise = new Promise((resolve, reject) => {
+    reject("Failed");
+});
+
+promise
+    .then((result) => {
+        console.log(result);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
+
+    console.log("Start");
+
+Promise.resolve().then(() => {
+    console.log("Promise");
+});
+
+console.log("End");
