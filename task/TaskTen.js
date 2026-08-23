@@ -539,3 +539,22 @@ Promise.resolve().then(() => {
 });
 
 console.log("End");
+
+function multiply(a) {
+
+    return function(b) {
+
+        return function(c) {
+
+            return a * b * c;
+        };
+    };
+}
+
+console.log(multiply(2)(3)(4));
+
+let username = null;
+
+let resulted = username ?? "Guest";
+
+console.log(result);
