@@ -558,3 +558,28 @@ let username = null;
 let resulted = username ?? "Guest";
 
 console.log(result);
+
+const user = {
+    name: "Sandhiya",
+    address: {
+        city: "Chennai",
+        pincode: 600001
+    },
+    skills: ["Java", "JavaScript", "Playwright"]
+};
+
+const users = [
+    { id: 101, name: "A" },
+    { id: 102, name: "B" },
+    { id: 101, name: "A" },
+    { id: 103, name: "C" },
+    { id: 102, name: "B" }
+];
+
+const employees = [
+    { name: "A", department: "IT" },
+    { name: "B", department: "HR" },
+    { name: "C", department: "IT" },
+    { name: "D", department: "Finance" },
+    { name: "E", department: "HR" }
+];
