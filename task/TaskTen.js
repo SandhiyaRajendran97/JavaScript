@@ -583,3 +583,29 @@ const employees = [
     { name: "D", department: "Finance" },
     { name: "E", department: "HR" }
 ];
+
+console.log("A");
+
+Promise.resolve()
+    .then(() => {
+        console.log("B");
+    })
+    .then(() => {
+        console.log("C");
+    });
+
+console.log("D");
+
+setTimeout(() => {
+    console.log("E");
+}, 0);
+
+console.log("F");
+
+const numbered = [1, 2, 3, 4, 5];
+
+const resuls= customMap(numbers, function(num) {
+    return num * 2;
+});
+
+console.log(result);
