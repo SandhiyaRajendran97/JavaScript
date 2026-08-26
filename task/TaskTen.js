@@ -609,3 +609,32 @@ const resuls= customMap(numbers, function(num) {
 });
 
 console.log(result);
+
+function counter() {
+    let count = 0;
+
+    return function () {
+        count++;
+        return count;
+    };
+}
+
+const c1 = counter();
+const c2 = counter();
+
+console.log(c1());
+console.log(c1());
+console.log(c2());
+console.log(c1());
+
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => {
+        console.log("var:", i);
+    }, 1000);
+}
+
+for (let j = 0; j < 3; j++) {
+    setTimeout(() => {
+        console.log("let:", j);
+    }, 1000);
+}
