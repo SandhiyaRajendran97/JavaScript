@@ -638,3 +638,9 @@ for (let j = 0; j < 3; j++) {
         console.log("let:", j);
     }, 1000);
 }
+
+const p1 = Promise.resolve("Login successful");
+
+const p2 = Promise.reject("Invalid password");
+
+const p3 = Promise.resolve("Dashboard loaded");
