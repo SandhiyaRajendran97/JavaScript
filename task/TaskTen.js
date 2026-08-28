@@ -644,3 +644,24 @@ const p1 = Promise.resolve("Login successful");
 const p2 = Promise.reject("Invalid password");
 
 const p3 = Promise.resolve("Dashboard loaded");
+
+
+const employeed = [
+    { name: "A", salary: 50000 },
+    { name: "B", salary: 80000 },
+    { name: "C", salary: 60000 },
+    { name: "D", salary: 90000 }
+];
+
+const company = {
+    name: "ABC",
+    employees: {
+        IT: {
+            developer: {
+                name: "John",
+                salary: 70000
+            }
+        }
+    }
+};
+
