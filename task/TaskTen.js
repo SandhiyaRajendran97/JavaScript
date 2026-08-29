@@ -665,3 +665,31 @@ const company = {
     }
 };
 
+let employee = {
+    name: "Sandhiya",
+    age: 28,
+    address: {
+        city: "Chennai",
+        pincode: 600001
+    },
+    skills: {
+        primary: "JavaScript",
+        secondary: "Selenium"
+    }
+};
+
+let employe = [
+    {
+        name: "A",
+        skills: ["Java", "Selenium"]
+    },
+    {
+        name: "B",
+        skills: ["JavaScript", "Playwright"]
+    },
+    {
+        name: "C",
+        skills: ["Java", "API"]
+    }
+];
+
