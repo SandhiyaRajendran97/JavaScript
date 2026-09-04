@@ -708,3 +708,22 @@ console.log(c());
 console.log(c());
 console.log(c());
 
+let data = [
+    {
+        category: "Electronics",
+        products: [
+            { name: "Laptop", price: 60000 },
+            { name: "Mouse", price: 1000 }
+        ]
+    },
+    {
+        category: "Mobiles",
+        products: [
+            { name: "iPhone", price: 80000 },
+            { name: "Samsung", price: 50000 }
+        ]
+    }
+];
+
+
+
