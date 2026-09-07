@@ -725,5 +725,32 @@ let data = [
     }
 ];
 
+let students = [
+    {
+        name: "John",
+        marks: {
+            maths: 80,
+            science: 75,
+            english: 85
+        }
+    },
+    {
+        name: "Priya",
+        marks: {
+            maths: 95,
+            science: 90,
+            english: 88
+        }
+    },
+    {
+        name: "Rahul",
+        marks: {
+            maths: 70,
+            science: 85,
+            english: 80
+        }
+    }
+];
+
 
 
