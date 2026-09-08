@@ -752,5 +752,21 @@ let students = [
     }
 ];
 
+let companys = {
+    IT: {
+        employees: [
+            { name: "John", salary: 50000 },
+            { name: "Priya", salary: 60000 }
+        ]
+    },
+
+    HR: {
+        employees: [
+            { name: "Rahul", salary: 45000 },
+            { name: "Anu", salary: 55000 }
+        ]
+    }
+};
+
 
 
