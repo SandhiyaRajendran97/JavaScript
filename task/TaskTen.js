@@ -774,5 +774,29 @@ let marked = [
     [95, 88, 92]
 ];
 
+let companes = {
+    IT: [
+        {
+            name: "John",
+            skills: ["Java", "Selenium"]
+        },
+        {
+            name: "Priya",
+            skills: ["JavaScript", "Playwright"]
+        }
+    ],
+
+    Testing: [
+        {
+            name: "Rahul",
+            skills: ["Selenium", "Java"]
+        },
+        {
+            name: "Anu",
+            skills: ["Playwright", "JavaScript"]
+        }
+    ]
+};
+
 
 
