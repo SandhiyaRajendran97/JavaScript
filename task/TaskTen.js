@@ -855,5 +855,18 @@ let b = "10";
 console.log(a == b);   // true
 console.log(a === b);  // false
 
+let age = 25;
+let hasLicense = true;
+
+if (age >= 18) {
+    if (hasLicense) {
+        console.log("Can drive");
+    } else {
+        console.log("License required");
+    }
+} else {
+    console.log("Not eligible to drive");
+}
+
 
 
