@@ -876,4 +876,20 @@ if (age >= 18) {
     console.log("Not eligible to vote");
 }
 
+let aged = 22;
+let experience = 3;
+let skill = "Java";
+let communication = true;
+
+if (
+    age >= 21 &&
+    experience >= 2 &&
+    (skill === "Java" || skill === "Selenium") &&
+    communication === true
+) {
+    console.log("Candidate is eligible");
+} else {
+    console.log("Candidate is not eligible");
+}
+
 
