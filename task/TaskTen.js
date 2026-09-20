@@ -892,4 +892,8 @@ if (
     console.log("Candidate is not eligible");
 }
 
+if (number % i === 0) {
+    // not prime
+}
+
 
