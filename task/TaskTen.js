@@ -914,3 +914,11 @@ for (let number = 2; number <= 50; number++) {
     }
 }
 
+function greet(name) {
+    // print Hello + name
+}
+
+function processUser(callback) {
+    // call callback with "Sandhiya"
+}
+
