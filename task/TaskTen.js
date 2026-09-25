@@ -922,3 +922,11 @@ function processUser(callback) {
     // call callback with "Sandhiya"
 }
 
+let Nub = 25;
+
+if (number % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odd");
+}
+
