@@ -930,3 +930,44 @@ if (number % 2 === 0) {
     console.log("Odd");
 }
 
+function welcome(name, callback) {
+    // your code
+}
+
+function message(name) {
+    // your code
+}
+
+welcome("Sandhiya", message);
+
+function login(callback) {
+    // Login completed
+}
+
+function getProfile(callback) {
+    // Profile loaded
+}
+
+function displayProfile() {
+    // Display profile
+}
+
+function openBrowser(callback) {
+    // print Browser opened
+}
+
+function enterUsername(callback) {
+    // print Username entered
+}
+
+function enterPassword(callback) {
+    // print Password entered
+}
+
+function clickLogin(callback) {
+    // print Login clicked
+}
+
+function verifyLogin() {
+    // print Login verified
+}
