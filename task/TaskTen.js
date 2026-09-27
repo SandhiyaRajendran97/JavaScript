@@ -971,3 +971,7 @@ function clickLogin(callback) {
 function verifyLogin() {
     // print Login verified
 }
+
+function checkPrime(number) {
+    // your logic
+}
