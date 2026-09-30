@@ -975,3 +975,16 @@ function verifyLogin() {
 function checkPrime(number) {
     // your logic
 }
+
+
+let af = 25;
+let bf = 40;
+let cf = 15;
+
+if (af > bf && af > cf) {
+    console.log("Af is largest");
+} else if (bf > a && bf > cf) {
+    console.log("Bf is largest");
+} else {
+    console.log("Cf is largest");
+}
