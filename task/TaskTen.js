@@ -988,3 +988,16 @@ if (af > bf && af > cf) {
 } else {
     console.log("Cf is largest");
 }
+
+let sts = "madam";
+let reverses = "";
+
+for (let i = sts.length - 1; i >= 0; i--) {
+    reverse = reverses + str[i];
+}
+
+if (sts === reverses) {
+    console.log("Palindrome");
+} else {
+    console.log("Not Palindrome");
+}
