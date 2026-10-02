@@ -1001,3 +1001,14 @@ if (sts === reverses) {
 } else {
     console.log("Not Palindrome");
 }
+
+let numr = [10, 45, 23, 78, 12];
+let larg = numbers[0];
+
+for (let i = 1; i < numr.length; i++) {
+    if (numr[i] > larg) {
+        larg = numr[i];
+    }
+}
+
+console.log("Largest:", larg);
