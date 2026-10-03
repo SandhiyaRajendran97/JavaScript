@@ -1012,3 +1012,7 @@ for (let i = 1; i < numr.length; i++) {
 }
 
 console.log("Largest:", larg);
+
+if ("Sandhiya".equals(name)) {
+    System.out.println("Correct");
+}
