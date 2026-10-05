@@ -1024,3 +1024,15 @@ if (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)) {
 } else {
     console.log("Not a leap year");
 }
+
+let ag = 25;
+let bg = 60;
+let cg = 40;
+
+if (ag > bg && a > cg) {
+    console.log("Ag is largest");
+} else if (bg > ag && bg > cg) {
+    console.log("Bg is largest");
+} else {
+    console.log("Cg is largest");
+}
