@@ -1036,3 +1036,11 @@ if (ag > bg && a > cg) {
 } else {
     console.log("Cg is largest");
 }
+
+let numberh = 25;
+
+if (numberh % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odd");
+}
