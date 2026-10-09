@@ -1044,3 +1044,16 @@ if (numberh % 2 === 0) {
 } else {
     console.log("Odd");
 }
+
+let numbersd = [10, 20, 30, 20, 40, 10];
+
+for (let i = 0; i < numbersd.length; i++) {
+
+    for (let j = i + 1; j < numbersd.length; j++) {
+
+        if (numbersd[i] === numbersd[j]) {
+            console.log("Duplicate: " + numbers[i]);
+        }
+
+    }
+}
