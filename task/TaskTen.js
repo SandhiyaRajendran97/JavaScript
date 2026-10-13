@@ -1045,3 +1045,15 @@ if (numberh % 2 === 0) {
     console.log("Odd");
 }
 
+
+let ap = 25;
+let bp = 45;
+let cp = 35;
+
+if ((ap > bp && ap < cp) || (ap < bp && ap > cp)) {
+    console.log("Second largest number is: " + ap);
+} else if ((bp > ap && bp < cp) || (bp < ap && bp > cp)) {
+    console.log("Second largest number is: " + bp);
+} else {
+    console.log("Second largest number is: " + cp);
+}
