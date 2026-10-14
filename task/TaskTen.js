@@ -1057,3 +1057,16 @@ if ((ap > bp && ap < cp) || (ap < bp && ap > cp)) {
 } else {
     console.log("Second largest number is: " + cp);
 }
+
+let numberd = [10, 20, 30, 20, 40, 10];
+
+for (let i = 0; i < numberd.length; i++) {
+
+    for (let j = i + 1; j < numberd.length; j++) {
+
+        if (numberd[i] === numberd[j]) {
+            console.log("Duplicate: " + numberd[i]);
+        }
+
+    }
+}
