@@ -1070,4 +1070,13 @@ for (let i = 0; i < numberd.length; i++) {
 
     }
 }
+let named = "JavaScript Programming";
+let countd = 0;
 
+for (let i = 0; i < named.length; i++) {
+    let ch = named[i].toLowerCase();
+
+    if ("aeiou".includes(ch)) {
+        countd++;
+    }
+}
