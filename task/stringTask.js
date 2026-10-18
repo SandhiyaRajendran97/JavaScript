@@ -34,8 +34,9 @@ if (palin==drome){
     console.log(palin +  " is not a palindrome");
 }
 
-let fruitsd ="Apple";
-let numb= fruit[0].tolowercase ();
+
+
+
 
 
 
