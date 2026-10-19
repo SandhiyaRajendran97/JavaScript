@@ -1080,3 +1080,15 @@ for (let i = 0; i < named.length; i++) {
         countd++;
     }
 }
+let duplicate= [];
+
+for (let i = 0; i < numbers.length; i++) {
+    for (let j = i + 1; j < numbers.length; j++) {
+        if (numbers[i] === numbers[j] &&
+            !duplicate.includes(numbers[i])) {
+            duplicate.push(numbers[i]);
+        }
+    }
+}
+
+console.log("Duplicate Numbers:", duplicate);
