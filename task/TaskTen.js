@@ -768,12 +768,6 @@ let companys = {
     }
 };
 
-let marked = [
-    [80, 75, 90],
-    [60, 85, 70],
-    [95, 88, 92]
-];
-
 let companes = {
     IT: [
         {
