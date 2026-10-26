@@ -1097,3 +1097,14 @@ for (let i = 1; i <= num; i++) {
 console.log(factorialh);
 
 //end
+
+let are = [10, 20, 10, 30, 20, 40];
+let uniques = [];
+
+for (let i = 0; i < arr.length; i++) {
+    if (!uniques.includes(are[i])) {
+        uniques.push(arr[i]);
+    }
+}
+
+console.log(uniques);
