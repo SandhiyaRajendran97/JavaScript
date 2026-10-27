@@ -1108,3 +1108,16 @@ for (let i = 0; i < arr.length; i++) {
 }
 
 console.log(uniques);
+
+
+let am = 25;
+let bm = 45;
+let cm = 35;
+
+if ((am > bm && am < cm) || (am < bm && am > cm)) {
+    console.log("Second largest number is: " + am);
+} else if ((bm > am && bm < cm) || (bm < am && bm > cm)) {
+    console.log("Second largest number is: " + bm);
+} else {
+    console.log("Second largest number is: " + cm);
+}
