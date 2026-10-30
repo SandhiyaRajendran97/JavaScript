@@ -1087,14 +1087,6 @@ for (let i = 0; i < numbers.length; i++) {
 
 console.log("Duplicate Numbers:", duplicate);
 
-let numbr = 5;
-let factorialh = 1;
-
-for (let i = 1; i <= num; i++) {
-    factorialh = factorialh * i;
-}
-
-console.log(factorialh);
 
 //end
 
